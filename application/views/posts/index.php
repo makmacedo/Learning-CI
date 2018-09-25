@@ -1,4 +1,7 @@
 <h2><?= $title ?></h2>
+<div class="new">
+    <a class="btn btn-secondary btn-md float-right" href="<?php echo site_url('/posts/create');?>">New</a>
+</div>
 
 <?php foreach($posts as $post) :?>
     <div class="card text-white bg-secondary mb-3">
